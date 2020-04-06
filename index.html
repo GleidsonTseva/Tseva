@@ -14,16 +14,34 @@ table, th, td {
   border-collapse: collapse;
   background-color:rgba(230, 230, 230, 0.75);
   }
-  table{ width: 100%;}
-  th { background-color:rgba(200, 200, 200, 0.5);}
-  .imagem{
+ table{ width: 100%;}
+ th { background-color:rgba(200, 200, 200, 0.5);}
+ .imagem{
   background-color:#FFFFFF;
+ }
+  
+ div{
+   background-color:rgba(200, 200, 200, 0.5);
+   
+  font-size:150%;
   }
+  a{
+  padding: 5px;
+  }
+ 
 </style>
 </head>
 
 <body>
-<h1>Personagens já conhecidos</h1>
+<div>
+Personagens já conhecidos
+<a href="#Avlin">Avlin</a>
+<a href="#Edward">Edward</a>
+<a href="#Groot">Groot</a>
+<a href="#Sauron">Sauron</a>
+<a href="#Misigno">Misigno</a>
+<a href="#Anao">Anão</a>
+</div>
 
  <table>
   <tr>
@@ -34,7 +52,7 @@ table, th, td {
   </tr>
 
   <tr>
-    <th colspan="4">Avlin</th>
+    <th colspan="4" id="Avlin">Avlin</th>
    </tr>
   <tr>
     <td class="tipo">Jogável<br>Ranger<br>Meio-elfo<br>Marcelle</td>
@@ -44,7 +62,7 @@ table, th, td {
   </tr>
   
    <tr>
-    <th colspan="4">Edward</th>
+    <th colspan="4" id="Edward">Edward</th>
    </tr>
   <tr>
     <td class="tipo">Jogável<br>guerreiro?<br>humano<br>Daniel</td>
@@ -55,7 +73,7 @@ table, th, td {
   
   
   <tr>
-    <th colspan="4">Groot?</th>
+    <th colspan="4" id="Groot">Groot?</th>
    </tr>
   <tr>
     <td class="tipo">Jogável<br>Paladino<br>Goliath<br>Arhur Soares</td>
@@ -65,7 +83,7 @@ table, th, td {
   </tr>
 
   <tr>
-    <th colspan="4">Sauron</th>
+    <th colspan="4" id="Sauron">Sauron</th>
    </tr>
   <tr>
     <td class="tipo">Jogável<br>Mago?<br>high-elf?<br>Gus</td>
@@ -75,7 +93,7 @@ table, th, td {
   </tr>
 
   <tr>
-    <th colspan="4">Açogueiro &nbsp; Legista &nbsp; Butcher &nbsp; Caçador</th>
+    <th colspan="4" id="Misigno">Açogueiro &nbsp; Legista &nbsp; Butcher &nbsp; Caçador</th>
    </tr>
   <tr>
     <td class="tipo">Jogável<br>Ranger<br>Humano<br>Gleidson</td>
@@ -86,7 +104,7 @@ table, th, td {
 
 
   <tr>
-    <th colspan="4">Anão</th>
+    <th colspan="4" id="Anao">Anão</th>
    </tr>
      <tr>
     <td>NPC<br>Contratante<br>Anão</td>
