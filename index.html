@@ -39,7 +39,7 @@ Personagens já conhecidos
 <a href="#Edward">Edward</a>
 <a href="#Groot">Groot</a>
 <a href="#Sauron">Sauron</a>
-<a href="#Misigno">Misigno</a>
+<a id="Missingname" href="#Missingno">Misigno</a>
 <a href="#Anao">Anão</a>
 </div>
 
@@ -93,7 +93,7 @@ Personagens já conhecidos
   </tr>
 
   <tr>
-    <th colspan="4" id="Misigno">Açogueiro &nbsp; Legista &nbsp; Butcher &nbsp; Caçador</th>
+    <th colspan="4" id="Missingno">Missingno</th>
    </tr>
   <tr>
     <td class="tipo">Jogável<br>Ranger<br>Humano<br>Gleidson</td>
@@ -114,6 +114,27 @@ Personagens já conhecidos
   </tr>
 
 </table>
- 
+
+<script>
+var nome="MissingName";
+switch (Math.floor(Math.random() * 4)){
+case 0:
+nomE="Butcher";
+break;
+
+case 1:
+nome="Açogueiro";
+break;
+
+case 2:
+nome="Caçador";
+break;
+
+case 3:
+nomE="Legista";
+}
+  document.getElementById("Missingname").innerHTML = nomE;
+  document.getElementById("Missingno").innerHTML = nomE;
+</script>
 </body>
 </html>
