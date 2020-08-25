@@ -39,9 +39,13 @@ table, th, td {
 Personagens já conhecidos
 <a href="#Avlin">Avlin</a>
 <a href="#Edward">Edward</a>
+<!-
 <a href="#Groot">Groot</a>
+->
 <a href="#Sauron">Sauron</a>
 <a id="Missingname" href="#Missingno">Missingno</a>
+<a href="#Bardo">Bardo</a>
+<a href="#Clérigo">Clérigo</a>
 <a href="#Gundren">Gundren</a>
 </div>
 
@@ -73,7 +77,9 @@ Personagens já conhecidos
     <td>Sem ferimentos, está na estalagem</td>
   </tr>
   
-  
+ 
+ 
+<!- ->
   <tr>
     <th colspan="4" id="Groot">Groot?</th>
    </tr>
@@ -83,6 +89,7 @@ Personagens já conhecidos
     <td>Tendencia:Não se sabe<br></td>
     <td>Ainda não apareceu</td>
   </tr>
+->
 
   <tr>
     <th colspan="4" id="Sauron">Sauron</th>
@@ -105,6 +112,28 @@ Personagens já conhecidos
   </tr>
 
   <tr>
+    <th colspan="4" id="Bardo">Jony Pan</th>
+   </tr>
+     <tr>
+    <td>NPC<br>Contratante<br>Draconiano</td>
+    <td class="imagem"><img src=""style="height:200px;"></td>
+    <td></td>
+    <td></td>
+  </tr>
+  
+  
+    <tr>
+    <th colspan="4" id="Clérigo">Rhogar</th>
+   </tr>
+     <tr>
+    <td>NPC<br>Contratante<br>Draconiano</td>
+    <td class="imagem"><img src=""style="height:200px;"></td>
+    <td></td>
+    <td></td>
+  </tr>
+  
+  
+    <tr>
     <th colspan="4" id="Gundren">Gundren Stoneseeker</th>
    </tr>
      <tr>
@@ -141,7 +170,7 @@ Personagens já conhecidos
 var nome="MissingName";
 switch (Math.floor(Math.random() * 4)){
 case 0:
-nomE="Butcher";
+nome="Butcher";
 break;
 
 case 1:
@@ -153,7 +182,7 @@ nome="Caçador";
 break;
 
 case 3:
-nomE="Legista";
+nome="Legista";
 }
   document.getElementById("Missingname").innerHTML = nome;
   document.getElementById("Missingno").innerHTML = nome;
