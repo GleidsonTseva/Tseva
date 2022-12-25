@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Personagens RPG</title>
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+<link rel="manifest" href="/icons/site.webmanifest">
+<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon_16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon_32.png">
+<link rel="shortcut icon" type="image/x-icon" href="/icons/favicon.ico">
+
+<style>
+  body {
+  background-image: url('https://media.tenor.com/images/cdf90c706981616c9a676dc8a0d14eb5/tenor.gif');
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color:rgba(230, 230, 230, 0.75);
+  }
+ table{ width: 100%;}
+ th { background-color:rgba(200, 200, 200, 0.5);}
+ .imagem{
+  background-color:#FFFFFF;
+ }
+  
+ div{
+   background-color:rgba(200, 200, 200, 0.5);
+   
+  font-size:150%;
+  }
+  a{
+  padding: 5px;
+  }
+ 
+</style>
+</head>
+
+<body>
+<div>
+Personagens já conhecidos
+<a href="#Avlin">Avlin</a>
+<a href="#Edward">Edward</a>
+<!--
+<a href="#Groot">Groot</a>
+-->
+<a href="#Sauron">Sauron</a>
+<a id="Missingname" href="#Missingno">Missingno</a>
+<a href="#Bardo">Bardo</a>
+<a href="#Clérigo">Clérigo</a>
+<a href="#Gundren">Gundren</a>
+</div>
+
+ <table>
+  <tr>
+    <th>tipo</th>
+    <th>Imagem</th>
+    <th>Descrição</th>
+    <th>situação</th>
+  </tr>
+
+  <tr>
+    <th colspan="4" id="Avlin">Avlin</th>
+   </tr>
+  <tr>
+    <td class="tipo">Jogável<br>Ranger<br>Meio-elfo<br>Marcelle</td>
+    <td class="imagem"><img src="https://cdna.artstation.com/p/assets/images/images/000/303/684/large/Female_HalfWoodElf_Ranger.jpg" style="height:200px;"></td>
+    <td>Tendencia:Desconhecidae<br></td>
+    <td>Levemente ferida, está na estalagem</td>
+  </tr>
+  
+   <tr>
+    <th colspan="4" id="Edward">Edward</th>
+   </tr>
+  <tr>
+    <td class="tipo">Jogável<br>guerreiro?<br>humano<br>Daniel</td>
+    <td class="imagem"><img src="https://i.pinimg.com/236x/4a/d4/e8/4ad4e81d564ed33250f71315447ba33b.jpg" style="height:200px;"></td>
+    <td>Tendencia:Não se sabe<br></td>
+    <td>Sem ferimentos, está na estalagem</td>
+  </tr>
+  
+ 
+ 
+<!--
+  <tr>
+    <th colspan="4" id="Groot">Groot?</th>
+   </tr>
+  <tr>
+    <td class="tipo">Jogável<br>Paladino<br>Goliath<br>Arhur Soares</td>
+    <td class="imagem"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4968b2e1-d71b-499c-99dc-a6c72c49e4ae/d5szfcr-8e6b9d06-687b-4862-8d25-4ec16fbceae6.jpg/v1/fill/w_801,h_998,q_75,strp/aukan_by_storykillinger-d5szfcr.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi80OTY4YjJlMS1kNzFiLTQ5OWMtOTlkYy1hNmM3MmM0OWU0YWUvZDVzemZjci04ZTZiOWQwNi02ODdiLTQ4NjItOGQyNS00ZWMxNmZiY2VhZTYuanBnIiwid2lkdGgiOiI8PTgwMSIsImhlaWdodCI6Ijw9OTk4In1dXX0.x4mRRq3KXj1FkBO9e3GZL1djJOmVYBmUuDf-bmOpV80" style="height:200px;"></td>
+    <td>Tendencia:Não se sabe<br></td>
+    <td>Ainda não apareceu</td>
+  </tr>
+-->
+
+  <tr>
+    <th colspan="4" id="Sauron">Sauron</th>
+   </tr>
+  <tr>
+    <td class="tipo">Jogável<br>Mago?<br>high-elf?<br>Gus</td>
+    <td class="imagem"><img src="https://i.pinimg.com/736x/8f/03/a1/8f03a1735a959c46ca3dd1e76623a6cd.jpg" style="height:200px;"></td>
+    <td>Tendencia:Não se sabe<br></td>
+    <td>Sem ferimentos, roupa impecável, está na estalagem</td>
+  </tr>
+
+  <tr>
+    <th colspan="4" id="Missingno">Missingno</th>
+   </tr>
+  <tr>
+    <td class="tipo">Jogável<br>Ranger<br>Humano<br>Gleidson</td>
+    <td class="imagem"><img src="https://s3.amazonaws.com/files.d20.io/images/115895665/F9BB00oYSnhQiKdh4E4t0w/max.png?1585756853" style="height:200px;"></td>
+    <td>Tendencia: Chaotic<br>Color-pie: Green Blue</td>
+    <td>Braço levemente ferido, está na floresta</td>
+  </tr>
+
+  <tr>
+    <th colspan="4" id="Bardo">Jony Pan</th>
+   </tr>
+     <tr>
+    <td>Jogável<br>Contratante<br>Draconiano</td>
+    <td class="imagem"><img src=""style="height:200px;"></td>
+    <td></td>
+    <td></td>
+  </tr>
+  
+  
+    <tr>
+    <th colspan="4" id="Clérigo">Rhogar</th>
+   </tr>
+     <tr>
+    <td>Jogável<br>Contratante<br>Draconiano</td>
+    <td class="imagem"><img src=""style="height:200px;"></td>
+    <td></td>
+    <td></td>
+  </tr>
+  
+  
+    <tr>
+    <th colspan="4" id="Gundren">Gundren Stoneseeker</th>
+   </tr>
+     <tr>
+    <td>NPC<br>Contratante<br>Anão</td>
+    <td class="imagem"><img src="https://i.pinimg.com/236x/88/d0/bb/88d0bbedc5c27517c8edec1a63733935.jpg"style="height:200px;"></td>
+    <td>Anão nobre que contratou os 4 primeiros jogadores para uma missão de escolta de carga (todos menos o paladino).</td>
+    <td>Não se sabe o paradeiro</td>
+  </tr>
+
+
+  <tr>
+    <th colspan="4" id="Sildar">Sildar Hallwinter</th>
+   </tr>
+     <tr>
+    <td>NPC<br>Contratante<br></td>
+    <td class="imagem"><img src=""style="height:200px;"></td>
+    <td>nobre que contratou os 4 primeiros jogadores para uma missão de escolta de carga (todos menos o paladino).</td>
+    <td>Não se sabe o paradeiro</td>
+  </tr>
+
+</table>
+<div style="background-color:rgba(230, 230, 240, 0.75);">
+  <h3>Lugares conhecidos</h3>
+  <ul>
+    <li>Neverwinter</li>
+    <ul>
+    <li>Vila goblin</li>
+    </ul>
+    <li>Phandelver</li>
+  </ul>
+</div>
+  
+<script>
+var nome="MissingName";
+switch (Math.floor(Math.random() * 4)){
+case 0:
+nome="Butcher";
+break;
+
+case 1:
+nome="Açogueiro";
+break;
+
+case 2:
+nome="Caçador";
+break;
+
+case 3:
+nome="Legista";
+}
+  document.getElementById("Missingname").innerHTML = nome;
+  document.getElementById("Missingno").innerHTML = nome;
+</script>
+</body>
+</html>
